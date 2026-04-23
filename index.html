@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Портфолио студента</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="fog fog-1"></div>
+  <div class="fog fog-2"></div>
+  <div class="fog fog-3"></div>
+
+  
+<header class="header">
+    <div class="logo">
+        <svg class="logo-star" viewBox="0 0 24 24" role="img" aria-label="Звезда" focusable="false">
+            <polygon fill="white" points="12,2 15.2,8.6 22.5,9.4 17,14.2 18.4,21.4 12,17.9 5.6,21.4 7,14.2 1.5,9.4 8.8,8.6" />
+        </svg>
+    </div>
+    <nav class="nav">
+        <a href="#about">О СЕБЕ</a>
+        <a href="#works">РАБОТЫ</a>
+        <a href="#achievements">ДОСТИЖЕНИЯ</a>
+        <a href="#docs">ДОКУМЕНТЫ</a>
+        <a href="#citizen">Я ГРАЖДАНИН</a>
+    </nav>
+</header>
+
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">О себе</a>
+    <a href="#works">Работы</a>
+    <a href="#achievements">Достижения</a>
+    <a href="#documents">Документы</a>
+    <a href="#citizen">Я гражданин</a>
+    <button class="nav-btn mobile-fgoc" id="openFgocBtnMobile" type="button">ОК и ПК ФГОС</button>
+  </div>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-overlay"></div>
+      <div class="hero-inner shell">
+        <p class="eyebrow">Министерство образования и молодежной политики Свердловской области Портфолио студента ГАПОУ СО «ЕКТС» специальность 09.02.07 "Информационные системы и программирование"</p>
+        <div class="title-sheet sharp-card">
+          <img class="title-photo" src="picture/8.jpg" alt="Фото" />
+          <div class="title-meta">
+            <p class="title-name">Форрат Лия Константиновна</p>
+            <p class="title-group">Группа: ПР-41</p>
+          </div>
+          <div class="hero-actions">
+            <button class="ghost-btn" type="button" id="openFgocBtnHero">Перечень ОК и ПК</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="about">
+      <div class="section-heading">
+        <span class="section-mark"></span>
+        <h2>О СЕБЕ</h2>
+      </div>
+
+      <div class="about-grid">
+    
+
+        <article class="card sharp-card list-card">
+          <h3>Знания</h3>
+          <ul>
+            <li>Основные этапы разработки ПО</li>
+            <li>Системы управления базами данных</li>
+            <li>Системы контроля версий Git</li>
+            <li>Оформление документации на программные продукты</li>
+            <li>Основные принципы технологии структурного и объектно-ориентированного программирования</li>
+          </ul>
+        </article>
+
+        <article class="card sharp-card list-card">
+          <h3>Умения</h3>
+          <ul>
+            <li>Формировать алгоритмы разработки программных модулей в соответствии с техническим заданием</li>
+            <li>Создавать программы по разработанному алгоритму как отдельный модуль</li>
+            <li>Выполнять тестирование интеграции</li>
+          </ul>
+        </article>
+
+        <article class="card sharp-card list-card">
+          <h3>Личные качества</h3>
+          <ul>
+            <li>Креативность</li>
+            <li>Внимание к деталям</li>
+            <li>Коммуникабельность</li>
+            <li>Стремление к обучению</li>
+          </ul>
+        </article>
+
+        <article class="card sharp-card list-card">
+          <h3>Опыт</h3>
+          <ul>
+            <li>Умение работать в Xcode, Visual Studio, Android Studio, Visual Code, PyCharm, Open Server Panel</li>
+            <li>Умение работать в любых графических редакторах</li>
+            <li>Владение языками Kotlin, C#, C++, Lua, Python, HTML, Swift</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="divider shell">
+      <div class="divider-line"></div>
+      <div class="divider-stars">✦ ✦ ✦ ✦ ✦</div>
+      <div class="divider-line"></div>
+    </section>
+
+    <section class="section shell" id="works">
+      <div class="section-heading">
+        <span class="section-mark"></span>
+        <h2>РАБОТЫ</h2>
+      </div>
+
+      <div class="cards-grid works-grid">
+        <article class="project-card sharp-card">
+          <div class="project-image placeholder-box">
+            <img src="picture/7.png" width="200">
+          </div>
+          <div class="project-body">
+            <h3>Курсовая работа "Планировщик личных дел"</h3>
+            <p>iOS-приложение для планирования личных дел и долгосрочных целей.</p>
+            <a href="https://github.com/olegsey2209/Task" class="text-link">Ссылка на работу</a>
+          </div>
+        </article>
+
+        <article class="project-card sharp-card">
+          <div class="project-image placeholder-box">
+            <img src="picture/6.png" width="400">
+          </div>
+          <div class="project-body">
+            <h3>Маркетплейс</h3>
+            <p>Минималистичный маркетплейс, в котором доступна роль покупателя и продавца.</p>
+            <a href="https://github.com/leah2004/NewRepoMarket" class="text-link">Ссылка на работу</a>
+          </div>
+        </article>
+
+        <article class="project-card sharp-card">
+          <div class="project-image placeholder-box">
+            <img src="picture/5.png" width="300">
+          </div>
+          <div class="project-body">
+            <h3>Приложение для часов</h3>
+            <p>Позволяет добавлять понравившиеся музыкальные альбомы в избранное.</p>
+            <a href="https://github.com/olegsey2209/Task" class="text-link">Ссылка на работу</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="divider shell">
+      <div class="divider-line"></div>
+      <div class="divider-stars">✦ ✦ ✦ ✦ ✦</div>
+      <div class="divider-line"></div>
+    </section>
+
+    <section class="section shell" id="achievements">
+      <div class="section-heading">
+        <span class="section-mark"></span>
+        <h2>ДОСТИЖЕНИЯ</h2>
+      </div>
+
+      <div class="cards-grid certificate-grid">
+        <article class="certificate-card sharp-card">
+          <div class="certificate-image placeholder-poster">
+            <img src="picture/1.png" width="300">
+          </div>
+        </article>
+
+        <article class="certificate-card sharp-card">
+           <div class="certificate-image placeholder-poster">
+            <img src="picture/2.png" width="300">
+          </div>
+        </article>
+
+        <article class="certificate-card sharp-card">
+           <div class="certificate-image placeholder-poster">
+            <img src="picture/3.png" width="300">
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="divider shell">
+      <div class="divider-line"></div>
+      <div class="divider-stars">✦ ✦ ✦ ✦ ✦</div>
+      <div class="divider-line"></div>
+    </section>
+
+    <section class="section shell" id="documents">
+      <div class="section-heading">
+        <span class="section-mark"></span>
+        <h2>ДОКУМЕНТЫ</h2>
+      </div>
+
+      <div class="documents-layout">
+    
+       <div class="certificate-image placeholder-poster">
+            <img src="picture/4.png" width="600">
+          </div>
+      </div>
+    </section>
+
+    <section class="divider shell">
+      <div class="divider-line"></div>
+      <div class="divider-stars">✦ ✦ ✦ ✦ ✦</div>
+      <div class="divider-line"></div>
+    </section>
+
+    <section class="section shell" id="citizen">
+      <div class="section-heading">
+        <span class="section-mark"></span>
+        <h2>Я ГРАЖДАНИН</h2>
+      </div>
+
+     <div class="certificate-image placeholder-poster">
+            <img src="picture/4.png" width="600">
+          </div>
+    </section>
+  </main>
+
+  <button class="to-top" id="toTopBtn" type="button" aria-label="Наверх">↑</button>
+
+  <div class="modal" id="fgocModal" aria-hidden="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-window sharp-card">
+      <div class="modal-header">
+        <h2>Перечень ОК, ПК и ДПК для специальности 09.02.07 "Информационные системы и программирование"</h2>
+        <button class="close-btn close-icon" id="closeFgocBtn" type="button" aria-label="Закрыть">&times;</button>
+      </div>
+      <div class="modal-content">
+        <ul>
+            <li>ОК 01 Выбирать способы решения задач профессиональной деятельности применительно к различным контекстам;</li>
+            <li> ОК 02 Использовать современные средства поиска, анализа и интерпретации информации и информационные технологии для выполне-ния задач профессиональной деятельности;</li>
+   <li> ОК 03 Планировать и реализовывать собственное профессиональное и личностное развитие, предпринимательскую деятельность в про-фессиональной сфере, использовать знания по правовой и финансовой грамотности в различных жизненных ситуациях;</li>
+   <li> ОК 04 Эффективно взаимодействовать и работать в коллективе и команде;</li>
+   <li> ОК 05 Осуществлять устную и письменную коммуникацию на государственном языке Российской Федерации с учетом особенностей со-циального и культурного контекста;</li>
+   <li> ОК 06 Проявлять гражданско-патриотическую позицию, демонстрировать осознанное поведение на основе традиционных российских духовно-нравственных ценностей, в том числе с учетом гармонизации межнациональных и межрелигиозных отношений, применять стандарты антикоррупционного поведения;</li>
+   <li> ОК 07 Содействовать сохранению окружающей среды, ресурсосбережению, применять знания об изменении климата, принципы береж-ливого производства, эффективно действовать в чрезвычайных ситуациях;</li>
+   <li> ОК 08 Использовать средства физической культуры для сохранения и укрепления здоровья в процессе профессиональной деятельности и поддержания необходимого уровня физической подготовленности;</li>
+   <li> ОК 09 Пользоваться профессиональной документацией на государственном и иностранном языках;</li>
+   <li> ПК 1.1. Формировать алгоритмы разработки программных модулей в соответствии с техническим заданием;</li>
+   <li> ПК 1.2. Разрабатывать программные модули в соответствии с техническим заданием;</li>
+   <li> ПК 1.3. Выполнять отладку программных модулей с использованием специализированных программных средств;</li>
+   <li> ПК 1.4. Выполнять тестирование программных модулей;</li>
+   <li> ПК 1.5. Осуществлять рефакторинг и оптимизацию программного кода;</li>
+      <li> ПК 1.6. Разрабатывать модули программного обеспечения для мобильных платформ;</li>
+         <li>ПК 2.1. Разрабатывать требования к программным модулям на основе анализа проектной и технической документации на предмет взаи-модействия компонент; </li>
+            <li>ПК 2.2. Выполнять интеграцию модулей в программное обеспечение; </li>
+     <li>ПК 2.3. Выполнять отладку программного модуля с использованием специализированных программных средств; </li>
+<li> ПК 2.4. Осуществлять разработку тестовых наборов и тестовых сценариев для программного обеспечения;</li>
+<li>ПК 2.5. Производить инспектирование компонент программного обеспечения на предмет соответствия стандартам кодирования; </li>
+<li> ПК 4.1. Осуществлять инсталляцию, настройку и обслуживание программного обеспечения компьютерных систем;</li>
+<li> ПК 4.2. Осуществлять измерения эксплуатационных характеристик программного обеспечения компьютерных систем;</li>
+<li> ПК 4.3. Выполнять работы по модификации отдельных компонент программного обеспечения в соответствии с потребностями заказчика;</li>
+<li> ПК 4.4. Обеспечивать защиту программного обеспечения компьютерных систем программными средствами;</li>
+<li> ПК 11.1. Осуществлять сбор, обработку и анализ информации для проектирования баз данных;</li>
+<li> ПК 11.2. Проектировать базу данных на основе анализа предметной области;</li>
+<li>ПК 11.3. Разрабатывать объекты базы данных в соответствии с результатами анализа предметной области; </li>
+<li> ПК 11.4. Реализовывать базу данных в конкретной системе управления базами данных;</li>
+<li> ПК 11.5. Администрировать базы данных;</li>
+<li> ПК 11.6. Защищать информацию в базе данных с использованием технологии защиты информации;</li>
+<li> ДПК 2.1 Использование системного анализа и методологий проектирования (например, унифицированного языка моделирования (Unified Modelling Language), программной платформы MVC (Model-View-Control), фреймворков, шаблонов проектирования);</li>
+<li> ДПК 2.2 Работа с системой контроля версий.</li>
+          </ul>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
