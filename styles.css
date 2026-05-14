@@ -981,6 +981,7 @@ main {
     justify-content: space-between;
     padding: 0 60px;
     z-index: 1000;
+    overflow: hidden;
 }
 
 .header,
