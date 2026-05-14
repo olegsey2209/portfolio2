@@ -654,10 +654,13 @@ main {
 }
 
 #documents img,
-#citizen img {
+#citizen img,
+.project-image img,
+.certificate-image img {
   max-width: 100%;
   height: auto;
   display: block;
+  margin: 0 auto;
 }
 
 .document-list {
@@ -833,6 +836,10 @@ main {
     justify-content: center;
   }
 
+  .header {
+    padding: 0 20px;
+  }
+
   .shell {
     width: min(100% - 28px, 1240px);
   }
@@ -857,6 +864,11 @@ main {
 
   .modal {
     padding: 14px;
+    padding-top: 90px;
+  }
+
+  .modal-window {
+    max-height: calc(100vh - 90px - 14px);
   }
 
   .modal-header,
@@ -868,6 +880,14 @@ main {
   .citizen-text,
   .citizen-gallery {
     padding: 20px;
+  }
+
+  .placeholder-poster {
+    min-height: 260px;
+  }
+
+  .placeholder-box {
+    min-height: 180px;
   }
 }
 
@@ -886,6 +906,11 @@ main {
 
   .hero h1 {
     font-size: 38px;
+  }
+
+  .eyebrow {
+    font-size: 12px;
+    letter-spacing: 0.06em;
   }
 
   .hero-text h2,
@@ -927,6 +952,18 @@ main {
     align-self: flex-end;
     padding: 6px 10px;
     font-size: 30px;
+  }
+
+  .title-sheet {
+    padding: 18px;
+  }
+
+  .about-grid {
+    gap: 12px;
+  }
+
+  .section {
+    padding: 32px 0 16px;
   }
 }
 
