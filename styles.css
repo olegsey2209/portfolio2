@@ -1007,6 +1007,15 @@ main {
     gap: 40px;
 }
 
+@media (max-width: 860px) {
+  .nav {
+    display: none !important;
+  }
+  .menu-btn {
+    display: inline-flex !important;
+  }
+}
+
 .nav a {
     color: #e5e5e5;
     text-decoration: none;
