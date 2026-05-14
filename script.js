@@ -42,6 +42,12 @@ openButtons.forEach((button) => {
 closeFgocBtn.addEventListener('click', closeModal);
 modalBackdrop.addEventListener('click', closeModal);
 
+document.querySelectorAll('.nav a').forEach((link) => {
+  link.addEventListener('click', () => {
+    if (fgocModal.classList.contains('open')) closeModal();
+  });
+});
+
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape' && fgocModal.classList.contains('open')) {
     closeModal();
